@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src='https://d3js.org/d3.v3.min.js'></script>
+        <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+        
+        <script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBuIoaf9nuyOV6Oko2zV3vivMOXT8OApIY",
+    authDomain: "dh2400-81a1f.firebaseapp.com",
+    databaseURL: "https://dh2400-81a1f.firebaseio.com",
+    projectId: "dh2400-81a1f",
+    storageBucket: "dh2400-81a1f.appspot.com",
+    messagingSenderId: "509578457944"
+  };
+firebase.initializeApp(config);
+</script>
+    </head>
+    <body>
+        <svg id="tree-skeleton" style="width: 100%; height: 100%">
+            <image href="tree.png" style="width: 100%; height: 100%"></image>
+        </svg>
+        
+        <script src="animation.js" ></script>
+
+    </body>
+</html>
